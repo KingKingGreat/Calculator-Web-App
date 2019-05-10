@@ -1,2 +1,4 @@
-# Calculator-Web-App
-Calculates Numbers
+# Calculator Web App
+By KingKingGreat
+
+Calculates Numbers Online Any Where
