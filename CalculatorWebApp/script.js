@@ -3,10 +3,10 @@ var calcButton = document.getElementById("calcButton");
 // Step 2: Define the event listener function
 	     
 function onButtonClick() {
-	var num1 = parseInt(document.getElementById("val1").value);
-	var num2 = parseInt(document.getElementById("val2").value);
+	var num1 = parseFloat(document.getElementById("val1").value);
+	var num2 = parseFloat(document.getElementById("val2").value);
 	var operator = document.getElementById("operator").value;
-	var result = parseInt(num1) + parseInt(num2);
+	var result = parseFloat(num1) + parseInt(num2);
 
 	if (!num1) {
 		document.getElementById("eText").textContent = "Please insert value on input 1"; 
