@@ -2,20 +2,24 @@
 	<html>
 		<head>
 			<title>Calculator Web App</title>
+			<meta charset="UTF-8">
 			<link rel="stylesheet" type="text/css" href="style.css">
 		</head>
-		<body>
-			<div>
-				<h1>Calculator Web App</h1>
-				<h2>Calculate Numbers</h2>
-				<hr>
-				<h2>Example</h2>
-				<p>Question : 1 + 1</p>
-				<p>Result : 2</p>
-				<hr>
-				<h2>How does it work ?</h2>
-				<p>It will calulate your number fast and easy<br>Insert values on Parameters below then press Calculate</p>
-				<hr>
+		<body id="body">
+			<div class="title">
+				<h1 id="titleWeb">Calculator Web App</h1>
+				<h2 id="descWeb">Calculate Numbers</h2>
+			</div>
+			<div class="example">
+				<h2 id="titleExample">Example</h2>
+				<p id="questionExample"><strong>Question : 1 + 1</strong></p>
+				<p id="answerExample"><strong>Answer : 2</strong></p>
+			</div>
+			<div class="howDoes">
+				<h2 id="titleHowDoes">How does it work ?</h2>
+				<p id="descHowDoes">It will calulate your number <strong>fast and easy</strong><br>Insert values on <strong>Parameters</strong> below then press <strong>Calculate</strong></p>
+			</div>
+			<div class="content">
 				<h3 id="eText"></h3>
 				Input 1 <input type="number" id="val1" value="0"><br>
 				Operator <select id="operator">
@@ -27,8 +31,9 @@
 				Input 2 <input type="number" id="val2" value="0"><br>
 				<button id="calcButton" type="button">Calculate</button>
 				<h3 id="rText"></h3>
-				<hr>
-				<h2>Version 1.0.2019510.121701.LM</h2>
+			</div>
+			<div class="footer">
+				<h2 id="version">Version 1.0.2019510.121701.LM</h2>
 			</div>
 			<script src="script.js"></script>
 		</body>
